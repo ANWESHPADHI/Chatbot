@@ -1,0 +1,25 @@
+{"intents": [
+        {"tag": "weathertoday",
+         "patterns": ["weather", "weather today", "today weather","what is today weather","what is weather of today", "today's weather", "is today a goof day?"],
+         "responses": ["30", "today temperature is 30", "today temperature is 30"],
+         "context": [""]
+        },
+        {"tag": "weathertomorrow",
+         "patterns": ["weather", "weather tomorrow", "tomorrow weather","what is tomorrow weather","what is weather of tomorrow", "tomorrow's weather", "is tomorrow a goof day?"],
+         "responses": ["40", "tomorrow temperature is 40", "tomorrow temperature is 40"],
+         "context": [""]
+        },
+        {"tag": "schedule",
+         "patterns": ["schedule", "schedule of today", "schedule please", "what is my schedule", "today schedule"],
+         "responses": ["today schedule is 10 A.M", "10AM", "schedule is 10AM"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        }
+        
+        
+   ]
+}
